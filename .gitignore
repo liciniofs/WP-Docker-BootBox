@@ -1,0 +1,48 @@
+# Version Control
+.svn
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDEs
+.buildpath
+.project
+.settings/
+.build/
+.idea/
+nbproject/
+/tags
+.netbeans.xml
+
+# Compass/SASS/SCSS
+.sass-cache
+
+# Other
+node_modules
+
+/vendor/
+/release/
+sassdoc
+scss-lint-report.xml
+config.codekit
+
+/wordpress/*
+!/wordpress/composer.json
+!/wordpress/package.json
+!/wordpress/wp-content/mu-plugins/autoload.php
+!/wordpress/wp-content/mu-plugins/fix-annoyances.php
+!/wordpress/wp-content/mu-plugins/https.php
+!/wordpress/wp-content/themes/genesis-starter/*
+!/wordpress/.gitkeep
+
+/data/*
+!/data/.gitkeep
+
+/logs/*
+!/logs/.gitkeep
+
+docker-compose.override.yml
+
+notes.md
+/config/elasticsearch/plugins/*
